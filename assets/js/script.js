@@ -181,7 +181,6 @@ var editTask = function(taskId) {
 };
 
 var deleteTask = function(taskId) {
-
     var taskSelected = document.querySelector(".task-item[data-task-id='" + taskId + "']");
     taskSelected.remove();
     // create new array to hold updated list of tasks
@@ -195,13 +194,10 @@ var deleteTask = function(taskId) {
     // reassign tasks array to be the same as updatedTaskArr
     tasks = updatedTaskArr;
     saveTasks();
-
 };
 var saveTasks =function()
 {
     localStorage.setItem("tasks", JSON.stringify(tasks));
-    
-
 
 }
 formEl.addEventListener("submit",taskFormHandler);
