@@ -7,7 +7,6 @@ A task  tracker application called Taskinator where an end user will be able to 
   * [Process](#process)
   * [Technologies](#technologies)
   * [MockUp](#mockup)
-  * [Testing](#testing)
   * [Website](#website)
   * [Contribution](#contribution)
 
